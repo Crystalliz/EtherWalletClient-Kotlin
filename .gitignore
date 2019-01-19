@@ -1,4 +1,14 @@
-# Compiled class file
+# OSX files
+.DS_Store
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
 *.class
 
 # Log file
@@ -9,6 +19,29 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+
+# generated files
+bin/
+gen/
+build/
+# Local configuration file (sdk path, etc)
+local.properties
+# Eclipse project files
+.classpath
+.project
+# Android Studio
+.idea
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
 
 # Package Files #
 *.jar
